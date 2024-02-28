@@ -13,30 +13,52 @@ Yes Bank is a well-known bank in the Indian financial domain. Since 2018, it has
 **Dataset Information**
 
 The provided Dataset is of Yes Bank which consists detail of Stocks based on its High, Low and Opening prices. The provided dataset of Yes Bank have in total 185 rows and 5 columns. This rows and columns have Yes Banks details such as monthly stock prices of the bank since its inception and includes closing, starting, highest, and lowest stock prices of every month. The main objective is to predict the stock’s closing price of the month. Following are the details of all columns present:
+
 Date- Date of record for stocks
+
 Open – Opening price of stocks
+
 High – Highest price in the day for stocks
+
 Low – Lowest price in the day for stocks
+
 Close – Closing price of stock
+
 Data Preprocessing and Visualization
+
 1.Handling Null & Duplicate Values
+
 •	There were no null values present in dataset.
+
 •	No duplicate values present in dataset.
 
+
 2.Converting Datatypes
+
 •	All columns datatype were correct except Date column.
+
 •	Converted column Date to datetime data type
 
 3.Creating New columns
+
 •	Created new column ‘Year’,’Month’ with the help of Date column.
+
 •	Created new column named as ‘independent_mean’ by taking mean of Open, High and Low columns.
+
 While analyzing data, we obtain some important insights like in which year stock price was highest? From which year stock prices got effected and started declining. Data visualization, in general makes complex data easy to understand and get significant insights from that entire dataset, so we used visualization which gave lots of insights of dataset, many questions were answered using graphs and visual plots. The graphs and visual plots used in this project are as follows:
+
 Distribution plot
+
 Scatter plot
+
 Box plot
+
 Pair Plot
+
 Line Chart
+
 Coorelation Heatmap
+
 For this visualization mainly seaborn & matplotlib library were used.
 
 **Model Implementation**

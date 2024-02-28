@@ -1,16 +1,16 @@
 # Yes-Bank-Stock-Closing-Price-Prediction---Regression-
 The objective is to predict closing stock price of the month for Yes Bank Dataset.
 
-#Introduction
+**Introduction**
 
 Provided with Yes Bank Stock Closing Price Prediction dataset, main objective is to do some analysis, model implementation and predict the stock’s closing price of the month.
 
-#Problem Statement
+**Problem Statement**
 
 Yes Bank Stock Closing Price Prediction 
 Yes Bank is a well-known bank in the Indian financial domain. Since 2018, it has been in the news because of the fraud case involving Rana Kapoor. Owing to this fact, it was interesting to see how that impacted the stock prices of the company and whether Time series models or any other predictive models can do justice to such situations. This dataset has monthly stock prices of the bank since its inception and includes closing, starting, highest, and lowest stock prices of every month. The main objective is to predict the stock’s closing price of the month. 
 
-#Dataset Information
+**Dataset Information**
 
 The provided Dataset is of Yes Bank which consists detail of Stocks based on its High, Low and Opening prices. The provided dataset of Yes Bank have in total 185 rows and 5 columns. This rows and columns have Yes Banks details such as monthly stock prices of the bank since its inception and includes closing, starting, highest, and lowest stock prices of every month. The main objective is to predict the stock’s closing price of the month. Following are the details of all columns present:
 Date- Date of record for stocks
@@ -39,16 +39,16 @@ Line Chart
 Coorelation Heatmap
 For this visualization mainly seaborn & matplotlib library were used.
 
-#Model Implementation
+**Model Implementation**
 
 The entire dataset needs to be divided into training and testing set, After Transformation and Scaling of Data model implementation takes place. Linear Regression Model, Lasso and Ridge Regularization models, Random Forest and Support Vector Regressor are the models that have been used. For better performance of model, hyperparameter tuning have been performed. Evaluated the performance of all models using metrics such as MAE, RMSE. Compared the models with each other to select a best model with better performance and low rate of error. 
 
-#Conclusion
+**Conclusion**
 
 The conclusion drawn after entire data cleaning, processing, analysing, visualizing and implementing different machine learning models are as follows:
 
 
-##Conclusion drawn after Data Analysis and Visualization are as follows:
+**Conclusion drawn after Data Analysis and Visualization are as follows:**
 
 1.The dataset consists of stock information in which no null and missing values are present.
 
@@ -70,7 +70,7 @@ The conclusion drawn after entire data cleaning, processing, analysing, visualiz
 
 10.There are some outliers present in the dataset but as the dataset is very small dropping those outliers can lead of data loss.
 
-##Conclusion drawn after Model Implementation:
+**Conclusion drawn after Model Implementation:**
 
 For Machine Learning model implementation, Linear Regression, Lasso and Ridge regularization models, Random Forest and Support Vector Regressor have been used.
 

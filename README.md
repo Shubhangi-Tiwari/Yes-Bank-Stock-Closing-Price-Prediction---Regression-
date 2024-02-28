@@ -24,7 +24,8 @@ Low – Lowest price in the day for stocks
 
 Close – Closing price of stock
 
-Data Preprocessing and Visualization
+
+**Data Preprocessing and Visualization**
 
 1.Handling Null & Duplicate Values
 
